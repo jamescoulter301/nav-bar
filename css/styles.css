@@ -1,0 +1,92 @@
+.twitter-icon:before {
+  src: 'img/social-icons/twitter-icon'; }
+
+header {
+  background: #e2e2e2;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  padding: 0;
+  z-index: 1001; }
+
+  header .marque {
+  display: inline-block;
+  vertical-align: center;
+  float: left;
+  line-height: 3em;
+  width: 12px; }
+
+header .marque img {
+  display: block;
+  margin-top: 12px; }
+
+header nav {
+  float: right;
+  overflow: hidden;
+  width: auto; }
+
+header nav a {
+  text-decoration: none;
+  line-height: 3em;
+  color: #797F7E;
+  display: block;
+  padding: 0 0.6em;
+  float: left;
+  -webkit-transition: color 0.3s ease-out;
+  -ms-transition: color 0.3s ease-out;
+  -moz-transition: color 0.3s ease-out;
+  -o-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out; }
+
+nav a.selected {
+  color: #e83944; }
+
+header nav a:hover,
+.work nav a.work,
+.us nav a.us,
+.journal nav a.journal {
+  color: #c7b29b; }
+
+.social-icons {
+  font-size: 15px;
+  line-height: 1.4em;
+  display: inline-block;
+  line-height: 3em; }
+  .social-icons a {
+    color: #666666;
+    text-decoration: none;
+    border-bottom: 0 !important;
+    font-size: 1.2em;
+    transition: all 0.3s ease-out; }
+    .social-icons a:hover {
+      color: #c7b29b; }
+  .social-icons li {
+    display: inline-block; }
+
+.header-social-icons {
+  float: right;
+  text-align: right; }
+
+@media all and (min-width: 800px) {
+  .header-social-icons {
+    width: 20%; }
+
+  header nav {
+    width: 43%; } }
+@media all and (min-width: 1060px) {
+  header nav {
+    width: 30%; } }
+@media only screen and (max-width: 540px) {
+  .header-social-icons {
+    display: none; } }
+.site-footer {
+  color: #999999;
+  background: white;
+  position: static;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 100;
+  border-top: 1px solid rgba(109, 110, 113, 0.25);
+  line-height: 1.35; }
